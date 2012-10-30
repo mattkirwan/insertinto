@@ -131,7 +131,8 @@ input.text {
 input.submit {
 	border: 1px solid #B8B56C;
 	background: #F0EC89;
-	color: #fff;
+	color: #333;
 	padding: 4px;
 	cursor: pointer;
+	width: 100%;
 }
