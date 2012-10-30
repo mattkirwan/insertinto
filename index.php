@@ -3,6 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>INSERT INTO .me - The MySQL INSERT Generator</title>
+		<style="text/css">
+			label {
+				display: block;
+				width: 12.5em;
+				float:left;
+			}
+
+			input {
+				
+			}
+		</style>
 	</head>
 	<body>
 		<h1>INSERT INTO .`me`</h1>
@@ -47,7 +58,7 @@
 					<fieldset>
 						<input type="submit" value="generate" />
 					</fieldset>
-					
+
 				</form>
 			</div>
 		</div>
