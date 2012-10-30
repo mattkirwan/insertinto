@@ -4,13 +4,13 @@
 
 							<label for="db">Database Name</label>
 							<input type="text" name="db" value="" />
-
+							<hr class="clear" />
 							<label for="table">Table Name</label>
 							<input type="text" name="table" value="" />
-
+							<hr class="clear" />
 							<label for="key_1_name">Field Name (Key 1)</label>
 							<input type="text" name="key_1_name" value="" />	
-
+							<hr class="clear" />
 							<label for="key_2_name">Field Name (Key 2)</label>
 							<input type="text" name="key_2_name" value="" />		
 
