@@ -26,7 +26,7 @@ time, mark, audio, video {
 body {
 	font-family: monospace;
 	font-size: 1em;
-	letter-spacing: 1px;
+	letter-spacing: 0.0625em;
 	color: #eaeaea;
 	background-color: #333;
 }
@@ -42,7 +42,15 @@ h2 {
 	font-size: 1.8em;
 	line-height: 2em;
 	border:dotted #ccc;
-	border-width: 1px 0;
+	border-width: 0.0625em 0;
+}
+
+h3 {
+	text-align:center;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	border:dotted #000;
+	border-width: 0.0625em 0;
 }
 
 p {

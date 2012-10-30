@@ -1,7 +1,7 @@
 <div id="generator">	
+					<h3>Many to Many Relationship Generator</h3>
 					<form action="" method="post">
 						<fieldset>
-							<legend>Many to Many Relationship Generator</legend>
 
 							<label for="db">Database Name</label>
 							<input type="text" name="db" value="" />
