@@ -31,8 +31,8 @@
 					<fieldset>
 						<legend>Key 2 (manual)</legend>
 
-						<label for="key_2_value">Value</label>
-						<input type="text" name="key_2_value" value="" />	
+						<label for="key_2_values">Value</label>
+						<input type="text" name="key_2_values[]" value="" />	
 
 					</fieldset>
 
