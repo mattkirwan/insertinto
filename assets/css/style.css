@@ -23,6 +23,21 @@ time, mark, audio, video {
 /**Reset**/
 
 
+body {
+	font-family: Arial;
+	font-size: 0.875em;
+	color: #eaeaea;
+	background-color: #333;
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+#container {
+	max-width: ;
+}
+
 #generator {
 	width: 31.25em;
 	float: left;
