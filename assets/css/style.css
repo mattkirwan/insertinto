@@ -94,6 +94,9 @@ p {
 	border: 1px solid #444;
 	background-color: #111;
 	color: #ccc;
+	padding: 1.25em;
+	font-size: 1.125em;
+	line-height: 1.6em;
 }
 
 label {
