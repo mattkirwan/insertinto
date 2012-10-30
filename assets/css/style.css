@@ -25,7 +25,8 @@ time, mark, audio, video {
 
 body {
 	font-family: monospace;
-	font-size: 0.875em;
+	font-size: 1em;
+	letter-spacing: 1px;
 	color: #eaeaea;
 	background-color: #333;
 }
