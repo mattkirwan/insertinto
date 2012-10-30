@@ -1,5 +1,4 @@
 <div id="generator">	
-					<h3>Many to Many Relationship Generator</h3>
 					<form action="" method="post">
 						<fieldset>
 
