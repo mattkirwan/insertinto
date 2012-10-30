@@ -66,6 +66,17 @@ hr {
 	height: 1px;	
 }
 
+a,
+a:visited {
+	color: #A480AB;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #F0EC89;
+	text-decoration: none;	
+}
+
 .code_colour_1 {
 	color:#A480AB;
 }
@@ -107,6 +118,12 @@ hr {
 	font-size: 1.125em;
 	line-height: 1.6em;
 	overflow:auto;
+}
+
+#footer {
+	padding: 0.625em;
+	border-top 1px dotted #ccc;
+	font-size: 1em;
 }
 
 label {
