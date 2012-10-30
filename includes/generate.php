@@ -18,7 +18,7 @@
 			break;
 
 			case 'key_2_values':
-				foreach($mxdValue as $iKey2ValuesKey as $strKey2ValuesValue)
+				foreach($mxdValue as $iKey2ValuesKey => $strKey2ValuesValue)
 				{
 					$arrPost_Clean['arrFields'][] = filter_var($strKey2ValuesValue, FILTER_SANITIZE_STRING);
 				}
