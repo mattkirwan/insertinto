@@ -7,6 +7,5 @@
 	</head>
 	<body>
 		<div id="container">
-			<h1>INSERT INTO .`me`</h1>
-			<p>----->0</p>
+			<h1><span class="code_colour_1">INSERT INTO</span> .<span class="code_colour_2">`me`</span></h1>
 			<h2>Quick and dirty MySQL INSERT generator.</h2>
