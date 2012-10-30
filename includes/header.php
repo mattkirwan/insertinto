@@ -6,5 +6,6 @@
 		<link type="text/css" href="/assets/css/style.css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1>INSERT INTO .`me`</h1>
-		<h2>Quick and dirty MySQL INSERT generator.</h2>
+		<div id="container">
+			<h1>INSERT INTO .`me`</h1>
+			<h2>Quick and dirty MySQL INSERT generator.</h2>

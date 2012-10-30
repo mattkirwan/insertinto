@@ -48,4 +48,5 @@
 																			 $arrPost_Clean['key_2_name'],
 																			 $strInserts);
 
+$t = "INSERT INTO `database`.`table` VALUES ( 'test' ) ";
 ?>
