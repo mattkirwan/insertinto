@@ -1,8 +1,8 @@
 <div id="content">
 				
-			<?php include './intro.php'; ?>
+			<?php include 'intro.php'; ?>
 
-			<?php include './form.php'; ?>
+			<?php include 'form.php'; ?>
 
 			<div id="preview">
 				<?php echo $strSQL; ?>
