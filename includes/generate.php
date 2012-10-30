@@ -28,7 +28,7 @@
 
 	}
 
-	// Query builder
+	// Build Query
 	$strInserts = '';
 	for($i=$arrPost_Clean['from'];$i<=$arrPost_Clean['to'];$i++)
 	{
@@ -47,10 +47,5 @@
 																			 $arrPost_Clean['key_1_name'],
 																			 $arrPost_Clean['key_2_name'],
 																			 $strInserts);
-
-	echo $strPreview;
-	echo '<pre>';
-	print_r($arrPost_Clean);
-	echo '</pre>';
 
 ?>
