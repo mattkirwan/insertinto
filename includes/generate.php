@@ -42,16 +42,11 @@
 
 	$strInserts .= ";";
 
-	$strPreview = sprintf("INSERT INTO `%s`.`%s`\n
-						   (`%s`, `%s`)\r
-						   VALUES \r
-						   %s
-						   ", $arrPost_Clean['db'],
-								 	$arrPost_Clean['table'],
-								 	$arrPost_Clean['key_1_name'],
-								 	$arrPost_Clean['key_2_name'],
-								 	$strInserts
-						);
+	$strPreview = sprintf("INSERT INTO `%s`.`%s`\n (`%s`, `%s`)\r VALUES \r %s", $arrPost_Clean['db'],
+																			 	 $arrPost_Clean['table'],
+																			 	 $arrPost_Clean['key_1_name'],
+																			 	 $arrPost_Clean['key_2_name'],
+																			 	 $strInserts);
 
 	echo $strPreview;
 	echo '<pre>';
