@@ -76,7 +76,7 @@ p {
 
 #m2m_generator {
 	background-color: #222;
-	border:solid #666;
+	border:solid #000;
 	border-width: 0.0625em 0;
 	padding: 0.625em;
 	max-width: 75em;
@@ -92,8 +92,9 @@ p {
 	width: 35em;
 	min-height:500px;
 	float: right;
-	border: 1px solid #ccc;
-	background-color: #f8f8f8;
+	border: 1px solid #444;
+	background-color: #111;
+	color: #ccc;
 }
 
 label {
