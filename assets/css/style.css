@@ -121,6 +121,7 @@ a:hover {
 }
 
 #footer {
+	margin: 1.2em;
 	padding: 0.625em;
 	border-top 1px dotted #ccc;
 	font-size: 1em;
