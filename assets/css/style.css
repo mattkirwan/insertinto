@@ -46,11 +46,9 @@ h2 {
 }
 
 h3 {
-	text-align:center;
+	text-align:left;
 	font-size: 1.4em;
 	line-height: 1.6em;
-	border:dotted #000;
-	border-width: 0.0625em 0;
 }
 
 p {
@@ -69,6 +67,14 @@ p {
 
 #container {
 	margin: 0 auto;
+	max-width: 75em;
+}
+
+#m2m_generator {
+	background-color: #000;
+	border:dotted #555;
+	border-width: 0.0625em 0;
+	padding: 0.625em;
 	max-width: 75em;
 }
 

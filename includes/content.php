@@ -3,10 +3,6 @@
 					
 				<?php include 'intro.php'; ?>
 
-				<?php include 'form.php'; ?>
-
-				<div id="preview">
-					<pre><?php echo $strPreview; ?></pre>
-				</div>
+				<?php include 'm2m_generator.php'; ?>
 
 			</div>
