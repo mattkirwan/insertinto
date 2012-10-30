@@ -20,7 +20,6 @@
 			case 'key_2_values':
 				foreach($mxdValue as $iKey2ValuesKey => $strKey2ValuesValue)
 				{
-					$arrPost_Clean[$strKey][$iKey2ValuesKey] = 'No Data';
 					if(!empty($strKey2ValuesValue))
 					{
 						$arrPost_Clean[$strKey][$iKey2ValuesKey] = filter_var($strKey2ValuesValue, FILTER_SANITIZE_STRING);
