@@ -5,13 +5,13 @@
 		<title>INSERT INTO .me - The MySQL INSERT Generator</title>
 		<style type="text/css">
 			#generator {
-				width: 50%;
+				width: 31.25em;
 				float: left;
 			}
 
 			#preview {
 				display: block;
-				width: 50%;
+				width: 31.25em;
 				min-height:500px;
 				float: right;
 				border: 1px solid #ccc;
