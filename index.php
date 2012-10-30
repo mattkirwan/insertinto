@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>INSERT INTO .me - The MySQL INSERT Generator</title>
-		<style="text/css">
+		<style type="text/css">
 			label {
 				display: block;
 				width: 12.5em;
@@ -11,7 +11,7 @@
 			}
 
 			input {
-				
+
 			}
 		</style>
 	</head>
