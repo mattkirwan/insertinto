@@ -17,6 +17,13 @@
 				$arrPost_Clean[$strKey] = filter_var($mxdValue, FILTER_SANITIZE_NUMBER_INT);
 			break;
 
+			case 'key_2_values':
+				foreach($arrPost_Clean[$strKey] as $iKey2ValuesKey as $strKey2ValuesValue)
+				{
+					$arrPost_Clean['arrFields'][] = filter_var($strKey2ValuesValue, FILTER_SANITIZE_STRING);
+				}
+			break;
+
 		}
 	}
 
