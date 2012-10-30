@@ -102,7 +102,7 @@ p {
 
 label {
 	display: block;
-	width: 12.5em;
+	width: 15em;
 	margin: 0.625em 0 0 0;
 	float: left;
 }
@@ -111,9 +111,9 @@ input.text {
 	background-color: #666;
 	border: #111;
 	color: #fff;
-	padding: 0.05em;
+	padding: 0.40em;
 	font-size: 1em;
 	height: 1.5em;
-	width: 12.5em;
+	width: 15em;
 	float: left;
 }
