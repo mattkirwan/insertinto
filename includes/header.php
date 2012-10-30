@@ -8,4 +8,4 @@
 	<body>
 		<div id="container">
 			<h1><span class="code_colour_1">INSERT INTO</span> .<span class="code_colour_2">`me`</span></h1>
-			<h2>Quick and dirty MySQL INSERT generator.</h2>
+			<h2><span class="quick">Quick</span> and <span class="dirty">dirty</span> MySQL INSERT generator.</h2>

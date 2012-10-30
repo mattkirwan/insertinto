@@ -85,6 +85,16 @@ a:hover {
 	color:#F0EC89;
 }
 
+.quick {
+	color: #91D6DB;
+	font-style: italic;
+}
+
+.dirty {
+	color: #614413;
+	font-weight: bold;
+}
+
 .clear {
 	clear: both;
 }
