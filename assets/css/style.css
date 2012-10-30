@@ -34,6 +34,7 @@ h1 {
 	text-align:center;
 	font-size: 2.5em;
 	line-height: 3.4375em;
+	border-bottom:1px dotted #ccc;
 }
 
 .code_colour_1 {
@@ -45,7 +46,8 @@ h1 {
 }
 
 #container {
-	max-width: ;
+	margin: 0 auto;
+	max-width: 75em;
 }
 
 #generator {
