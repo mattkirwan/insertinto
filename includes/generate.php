@@ -37,7 +37,7 @@
 	{
 		foreach($arrPost_Clean['key_2_values'] as $iValue => $strValue)
 		{
-			$strPreview .= " ('{$i}', '{$strValue}'), \n";
+			$strPreview .= " ('{$i}', '{$strValue}'), \n\r";
 		}
 	}
 
