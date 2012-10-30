@@ -107,6 +107,10 @@ label {
 	float: left;
 }
 
-input {
-
+input.text {
+	background-color: #666;
+	border: #333;
+	color: #fff;
+	padding: 0.03125em;
+	font-size: 1em;
 }

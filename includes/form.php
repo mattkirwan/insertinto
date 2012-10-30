@@ -3,16 +3,16 @@
 						<fieldset>
 
 							<label for="db">Database Name</label>
-							<input type="text" name="db" value="" />
+							<input type="text" class="text" name="db" value="" />
 							<hr class="clear" />
 							<label for="table">Table Name</label>
-							<input type="text" name="table" value="" />
+							<input type="text" class="text" name="table" value="" />
 							<hr class="clear" />
 							<label for="key_1_name">Field Name (Key 1)</label>
-							<input type="text" name="key_1_name" value="" />	
+							<input type="text" class="text" name="key_1_name" value="" />	
 							<hr class="clear" />
 							<label for="key_2_name">Field Name (Key 2)</label>
-							<input type="text" name="key_2_name" value="" />		
+							<input type="text" class="text" name="key_2_name" value="" />		
 
 						</fieldset>
 
@@ -20,10 +20,10 @@
 							<legend>Key 1 (auto generated)</legend>
 
 							<label for="from">Generate From</label>
-							<input type="text" name="from" value="" />	
+							<input type="text" class="text" name="from" value="" />	
 
 							<label for="to">Generate To</label>
-							<input type="text" name="to" value="" />
+							<input type="text" class="text" name="to" value="" />
 
 						</fieldset>
 
@@ -31,7 +31,7 @@
 							<legend>Key 2 (manual)</legend>
 
 							<label for="key_2_values">Value</label>
-							<input type="text" name="key_2_values[]" value="" />	
+							<input type="text" class="text" name="key_2_values[]" value="" />	
 
 						</fieldset>
 
