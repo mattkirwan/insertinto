@@ -34,17 +34,17 @@
 	{
 		foreach($arrPost_Clean['key_2_values'] as $iValue => $strValue)
 		{
-			$strInserts .= " ('{$i}', '{$strValue}'), \n";
+			$strInserts .= " ('{$i}', '{$strValue}'), \r";
 		}
 	}
 
-	$strInserts = rtrim($strInserts, ", \n");
+	$strInserts = rtrim($strInserts, ", \r");
 
 	$strInserts .= ";";
 
 	$strPreview = sprintf("INSERT INTO `%s`.`%s`\n
-						   (`%s`, `%s`)\n
-						   VALUES \n
+						   (`%s`, `%s`)\r
+						   VALUES \r
 						   %s
 						   ", $arrPost_Clean['db'],
 								 	$arrPost_Clean['table'],
