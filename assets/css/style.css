@@ -44,6 +44,13 @@ h2 {
 	border-width: 1px 0;
 }
 
+p {
+	margin: 0.625em;
+	background-color:#000;
+	border: 1px solid #555;
+	padding: 0.625em;
+}
+
 .code_colour_1 {
 	color:#A480AB;
 }
