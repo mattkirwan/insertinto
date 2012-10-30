@@ -4,10 +4,23 @@
 	<head>
 		<title>INSERT INTO .me - The MySQL INSERT Generator</title>
 		<style type="text/css">
+			#generator {
+				width: 50%;
+				float: left;
+			}
+
+			#preview {
+				display: block;
+				width: 50%;
+				min-height:500px;
+				float: right;
+				border: 1px solid #ccc;
+			}
+
 			label {
 				display: block;
 				width: 12.5em;
-				margin: 0 0 0.625em 0;
+				margin: 0.625em 0 0 0;
 			}
 
 			input {
@@ -60,6 +73,9 @@
 					</fieldset>
 
 				</form>
+			</div>
+			<div id="preview">
+
 			</div>
 		</div>
 	</body>
