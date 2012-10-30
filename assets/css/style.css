@@ -24,7 +24,7 @@ time, mark, audio, video {
 
 
 body {
-	font-family: Lucida Console, Monaco;
+	font-family: Monaco;
 	font-size: 0.875em;
 	color: #eaeaea;
 	background-color: #333;
@@ -33,13 +33,13 @@ body {
 h1 {
 	text-align:center;
 	font-size: 2.5em;
-	line-height: 3em;
+	line-height: 2.5em;
 }
 
 h2 {
 	text-align:center;
 	font-size: 1.8em;
-	line-height: 2.2em;
+	line-height: 2em;
 	border-bottom:1px dotted #ccc;
 }
 
