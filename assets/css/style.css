@@ -75,23 +75,23 @@ p {
 }
 
 #m2m_generator {
-	background-color: #000;
-	border:dotted #555;
+	background-color: #222;
+	border:solid #666;
 	border-width: 0.0625em 0;
 	padding: 0.625em;
 	max-width: 75em;
 }
 
 #generator {
-	width: 31.25em;
+	width: 35em;
 	float: left;
 }
 
 #preview {
 	display: block;
-	width: 31.25em;
+	width: 35em;
 	min-height:500px;
-	float: left;
+	float: right;
 	border: 1px solid #ccc;
 	background-color: #f8f8f8;
 }
