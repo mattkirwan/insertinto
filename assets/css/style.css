@@ -82,13 +82,13 @@ p {
 }
 
 #generator {
-	width: 33em;
+	width: 32em;
 	float: left;
 }
 
 #preview {
 	display: block;
-	width: 35em;
+	width: 34em;
 	max-height:31.25em;
 	float: right;
 	border: 0.0625em solid #444;
