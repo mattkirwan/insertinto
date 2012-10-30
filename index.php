@@ -7,16 +7,16 @@
 	</head>
 	<body>
 		
-		<?php include '/includes/header.php'; ?>
+		<?php include './includes/header.php'; ?>
 		
 		<div id="content">
 				
-			<?php include '/includes/intro.php'; ?>
+			<?php include './includes/intro.php'; ?>
 
-			<?php include '/includes/form.php'; ?>
+			<?php include './includes/form.php'; ?>
 
 			<div id="preview">
-				<?php include '/includes/generate.php'; ?>
+				<?php include './includes/generate.php'; ?>
 			</div>
 
 		</div>
