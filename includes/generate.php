@@ -29,21 +29,28 @@
 	}
 
 	// Query builder
-	$strPreview = "INSERT INTO `{$arrPost_Clean['db']}`.`{$arrPost_Clean['table']}`\n
-						   	   (`{$arrPost_Clean['key_1_name']}`, `{$arrPost_Clean['key_1_name']}`)\n
-						VALUES";
-
+	$strInserts = '';
 	for($i=$arrPost_Clean['from'];$i<=$arrPost_Clean['to'];$i++)
 	{
 		foreach($arrPost_Clean['key_2_values'] as $iValue => $strValue)
 		{
-			$strPreview .= " ('{$i}', '{$strValue}'), \n\r";
+			$strInserts .= " ('{$i}', '{$strValue}'), \n";
 		}
 	}
 
-	$strPreview = rtrim($strPreview, ", \n");
+	$strInserts = rtrim($strInserts, ", \n");
 
-	$strPreview .= ";";
+	$strInserts .= ";";
+
+	$strPreview = sprintf("INSERT INTO `%s`.`%s`\n
+						   (`%s`, `%s`)\n
+						   %s
+						   VALUES", $arrPost_Clean['db'],
+								 	$arrPost_Clean['table'],
+								 	$arrPost_Clean['key_1_name'],
+								 	$arrPost_Clean['key_2_name'],
+								 	$strInserts
+						);
 
 	echo $strPreview;
 	echo '<pre>';
