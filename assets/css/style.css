@@ -127,3 +127,11 @@ input.text {
 	float: left;
 	margin: 0 0 0.625em 0;
 }
+
+input.submit {
+	border: 1px solid #B8B56C;
+	background: #F0EC89;
+	color: #fff;
+	padding: 4px;
+	cursor: pointer;
+}
