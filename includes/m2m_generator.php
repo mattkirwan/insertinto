@@ -5,5 +5,5 @@
 				<div id="preview">
 					<pre><?php echo $strPreview; ?></pre>
 				</div>
-				<div class="clear">&nsbp;</div>
+				<div class="clear"></div>
 			</div>
