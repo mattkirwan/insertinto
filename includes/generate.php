@@ -32,6 +32,7 @@
 	$strInserts = '';
 	for($i=$arrPost_Clean['from'];$i<=$arrPost_Clean['to'];$i++)
 	{
+		$strInserts .= "\n";
 		foreach($arrPost_Clean['key_2_values'] as $iValue => $strValue)
 		{
 			$strInserts .= " ('{$i}', '{$strValue}'), \n";
