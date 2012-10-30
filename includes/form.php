@@ -17,20 +17,22 @@
 						</fieldset>
 
 						<fieldset>
-							<legend>Key 1 (auto generated)</legend>
-
-							<label for="from">Generate From</label>
+							<label for="from">Auto-generate From</label>
 							<input type="text" class="text" name="from" value="" />	
 
-							<label for="to">Generate To</label>
+							<label for="to">Auto-generate To</label>
 							<input type="text" class="text" name="to" value="" />
 
 						</fieldset>
 
 						<fieldset>
-							<legend>Key 2 (manual)</legend>
+							<label for="key_2_values">Relationship Value 1</label>
+							<input type="text" class="text" name="key_2_values[]" value="" />	
 
-							<label for="key_2_values">Value</label>
+							<label for="key_2_values">Relationship Value 2</label>
+							<input type="text" class="text" name="key_2_values[]" value="" />	
+
+							<label for="key_2_values">Relationship Value 3</label>
 							<input type="text" class="text" name="key_2_values[]" value="" />	
 
 						</fieldset>
