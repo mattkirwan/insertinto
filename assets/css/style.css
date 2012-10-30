@@ -146,3 +146,6 @@ input.submit {
 	font-weight: bold;
 	font-size: 2em;
 }
+input.submit:hover {
+	color: #fff;
+}
