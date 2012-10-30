@@ -57,6 +57,12 @@ p {
 	line-height: 1.5em;
 }
 
+hr {
+	color: #333;
+	background-color: #333;
+	height: 1px;	
+}
+
 .code_colour_1 {
 	color:#A480AB;
 }
@@ -116,4 +122,5 @@ input.text {
 	height: 1.5em;
 	width: 15em;
 	float: left;
+	margin: 0 0 0.625em 0;
 }
