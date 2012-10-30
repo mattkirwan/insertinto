@@ -1,4 +1,7 @@
 <?php
+	
+	$strPreview = '';
+
 	if(!empty($_POST))
 	{
 		include './includes/generate.php';

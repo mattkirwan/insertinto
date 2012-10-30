@@ -6,7 +6,7 @@
 			<?php include 'form.php'; ?>
 
 			<div id="preview">
-				<?php echo $strSQL; ?>
+				<?php echo $strPreview; ?>
 			</div>
 
 		</div>
