@@ -44,8 +44,9 @@
 
 	$strPreview = sprintf("INSERT INTO `%s`.`%s`\n
 						   (`%s`, `%s`)\n
+						   VALUES \n
 						   %s
-						   VALUES", $arrPost_Clean['db'],
+						   ", $arrPost_Clean['db'],
 								 	$arrPost_Clean['table'],
 								 	$arrPost_Clean['key_1_name'],
 								 	$arrPost_Clean['key_2_name'],
