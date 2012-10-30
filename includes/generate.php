@@ -28,6 +28,24 @@
 
 	}
 
+	// Query builder
+	$strPreview = "INSERT INTO `{$arrPost_Clean['db']}`.`{$arrPost_Clean['table']}`\n
+						   	   (`{$arrPost_Clean['key_1_name']}`, `{$arrPost_Clean['key_1_name']}`)\n
+						VALUES";
+
+	for($i=$arrPost_Clean['from'];$i<=$arrPost_Clean['to'];$i++)
+	{
+		foreach($arrPost_Clean['key_2_values'] as $iValue => $strValue)
+		{
+			$strPreview .= " ('{$i}', '{$strValue}'), \n";
+		}
+	}
+
+	$strPreview = rtrim($strPreview, ", \n");
+
+	$strPreview .= ";";
+
+	echo $strPreview;
 	echo '<pre>';
 	print_r($arrPost_Clean);
 	echo '</pre>';
