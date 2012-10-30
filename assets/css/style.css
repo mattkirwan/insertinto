@@ -109,11 +109,11 @@ label {
 
 input.text {
 	background-color: #666;
-	border: #333;
+	border: #111;
 	color: #fff;
-	padding: 0.03125em;
+	padding: 0.05em;
 	font-size: 1em;
 	height: 1.5em;
-	width: 6.25em;
-	float: right;
+	width: 12.5em;
+	float: left;
 }
