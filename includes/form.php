@@ -38,7 +38,7 @@
 						</fieldset>
 
 						<fieldset>
-							<input type="submit" class="submit" value="generate" />
+							<input type="submit" class="submit" value="Generate" />
 						</fieldset>
 
 					</form>
