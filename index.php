@@ -1,6 +1,6 @@
 <?php
 	
-	$strPreview = '';
+	$strPreview = '#Give me some <strike>sugar</strike> data...';
 
 	if(!empty($_POST))
 	{
