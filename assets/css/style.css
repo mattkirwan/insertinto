@@ -40,7 +40,8 @@ h2 {
 	text-align:center;
 	font-size: 1.8em;
 	line-height: 2em;
-	border-bottom:1px dotted #ccc;
+	border:dotted #ccc;
+	border-width: 1px 0;
 }
 
 .code_colour_1 {
