@@ -17,10 +17,10 @@
 						</fieldset>
 
 						<fieldset>
-							<label for="from">Auto-generate From</label>
+							<label for="from">Auto-generate ID From</label>
 							<input type="text" class="text" name="from" value="" />	
 							<hr class="clear" />
-							<label for="to">Auto-generate To</label>
+							<label for="to">Auto-generate ID To</label>
 							<input type="text" class="text" name="to" value="" />
 							<hr class="clear" />
 						</fieldset>
