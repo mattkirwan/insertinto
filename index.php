@@ -7,7 +7,7 @@
 			label {
 				display: block;
 				width: 12.5em;
-				height: 50px;
+				margin: 0 0 0.625em 0;
 			}
 
 			input {
